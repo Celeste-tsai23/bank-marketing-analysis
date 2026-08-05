@@ -41,4 +41,4 @@
 ## 五、 技術堆疊與原始碼
 * **開發環境**：Google Colab
 * **核心套件**：Python (`Pandas`, `NumPy`, `Scikit-Learn`, `Seaborn`, `Matplotlib`)
-* 🔗 **完整程式碼與互動筆記**：[Google Colab 專案連結](https://colab.research.google.com/drive/1CZVOzrgRb-PzNwHQQsQw9RfnB5_xaiKo?usp=sharing)
+* **完整程式碼與互動筆記**：[Google Colab 專案連結](https://colab.research.google.com/drive/1CZVOzrgRb-PzNwHQQsQw9RfnB5_xaiKo?usp=sharing)
