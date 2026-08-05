@@ -66,9 +66,9 @@ st.header("📈 二、 核心數據洞察與視覺化圖表")
 
 # 洞察 1：先前行銷成效
 st.subheader("1. 先前行銷成效 (poutcome) 是最強預測指標")
-st.success("**核心發現**：在前一次行銷活動中成功申辦的客戶，本次轉換率高達 **64.7% (n=1,511)**，遠高於其他群體。")
+st.success("**核心發現**：在前一次行銷活動中成功申辦的客戶，本次轉換率高達 **64.7% (n=1,511)**，遠高於其他群體。這顯示過去的行為是未來轉換率的可靠指標。")
 try:
-    st.image("poutcome_chart.png", caption="Conversion Rate by Previous Campaign Outcome (Poutcome)", use_container_width=True)
+    st.image("poutcome_chart.png", caption="依先前行銷活動結果劃分的轉換率", width=600)
 except:
     st.info("💡 提示：請上傳 `poutcome_chart.png` 圖檔至 GitHub 即可顯示此圖。")
 
