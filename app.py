@@ -12,7 +12,7 @@ st.markdown("""
             top: 15px;
             right: 30px;
             z-index: 999999;
-            background-color: rgba(255, 255, 255, 0.95);
+            background-color: #f4f4f4;
             padding: 8px 15px;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
