@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 設定網頁版面配置
-st.set_page_config(page_title="銀行定存行銷轉換率分析儀表板", layout="wide")
+st.set_page_config(page_title="銀行定存行銷轉換率分析", layout="wide")
 
 # ==================== 自訂 CSS：右上角固定導覽列 ====================
 st.markdown("""
@@ -21,7 +21,7 @@ st.markdown("""
         }
         .fixed-nav a {
             text-decoration: none;
-            color: #2b6cb0;
+            color: #4a4a4a;
             font-weight: bold;
             font-size: 14px;
         }
@@ -32,11 +32,11 @@ st.markdown("""
     </style>
 
     <div class="fixed-nav">
-        <a href="#section-top">🏠 頂端</a>
-        <a href="#section-bg">🎯 背景</a>
-        <a href="#section-insights">📈 數據圖表</a>
-        <a href="#section-tree">🌳 決策樹</a>
-        <a href="#section-strategy">💡 策略</a>
+        <a href="#section-top">商業背景</a>
+        <a href="#section-bg">資料概述</a>
+        <a href="#section-insights">數據洞察</a>
+        <a href="#section-tree">策略與建議</a>
+        <a href="#section-strategy">結論</a>
     </div>
 """, unsafe_allow_html=True)
 
