@@ -129,4 +129,4 @@ st.markdown("""
 
 st.markdown("---")
 st.markdown("### 🔗 專案原始碼與完整筆記")
-st.markdown("[👉 點此前往 Google Colab 完整分析筆記](https://colab.research.google.com/drive/1CZVOzrgRb-PzNwHQQsQw9RfnB5_xaiKo?usp=sharing)[cite: 1]")
+st.markdown("[👉 點此前往 Google Colab 完整分析筆記](https://colab.research.google.com/drive/1CZVOzrgRb-PzNwHQQsQw9RfnB5_xaiKo?usp=sharing)")
