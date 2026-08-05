@@ -65,7 +65,7 @@ st.markdown('<div id="section-insights"></div>', unsafe_allow_html=True)
 st.header("📈 二、 核心數據洞察與視覺化圖表")
 
 # 洞察 1：先前行銷成效
-st.subheader("1. 先前行銷成效 (poutcome) 是最強預測指標")
+st.subheader("1. 1.	先前行銷成效（poutcome）是轉換率的最強預測指標")
 st.success("**核心發現**：在前一次行銷活動中成功申辦的客戶，本次轉換率高達 **64.7% (n=1,511)**，遠高於其他群體。這顯示過去的行為是未來轉換率的可靠指標。")
 try:
     st.image("poutcome_chart.png", caption="依先前行銷活動結果劃分的轉換率", width=600)
