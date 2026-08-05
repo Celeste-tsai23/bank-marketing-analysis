@@ -100,7 +100,7 @@ st.success("**核心發現**：行動電話樣本數高達 29,285 筆，且轉�
 try:
     st.image("contact method_chart.png", caption="Conversion Rate by Contact Method", width=600)
 except:
-    st.info("💡 提示：請上傳 `contact_chart.png` 圖檔至 GitHub 即可顯示此圖。")
+    st.info("💡 提示：請上傳 `Contact method_chart.png` 圖檔至 GitHub 即可顯示此圖。")
 
 st.markdown("---")
 
