@@ -49,7 +49,7 @@ st.markdown("---")
 
 # 1. 背景與價值
 st.markdown('<div id="section-bg"></div>', unsafe_allow_html=True)
-st.header("🎯 一、 專案背景與商業價值")
+st.header("一、 專案背景與商業價值")
 col_bg1, col_bg2 = st.columns(2)
 with col_bg1:
     st.subheader("商業痛點")
@@ -62,7 +62,7 @@ st.markdown("---")
 
 # 2. 四大核心洞察與圖表展示
 st.markdown('<div id="section-insights"></div>', unsafe_allow_html=True)
-st.header("📈 二、 核心數據洞察與視覺化圖表")
+st.header(" 二、 核心數據洞察與視覺化圖表")
 
 # 洞察 1：先前行銷成效
 st.subheader("1. 先前行銷成效 (poutcome) 是最強預測指標")
@@ -98,7 +98,7 @@ st.markdown("---")
 st.subheader("4. 行動電話 (cellular) 是最有效的行銷管道")
 st.success("**核心發現**：行動電話樣本數高達 29,285 筆，且轉換率達 **14.9%** 表現最佳。")
 try:
-    st.image("contact_chart.png", caption="Conversion Rate by Contact Method", use_container_width=True)
+    st.image("contact method_chart.png", caption="Conversion Rate by Contact Method", use_container_width=True)
 except:
     st.info("💡 提示：請上傳 `contact_chart.png` 圖檔至 GitHub 即可顯示此圖。")
 
@@ -106,7 +106,7 @@ st.markdown("---")
 
 # 3. 決策樹模型
 st.markdown('<div id="section-tree"></div>', unsafe_allow_html=True)
-st.header("🌳 三、 機器學習決策樹模型驗證")
+st.header(" 三、 機器學習決策樹模型驗證")
 st.write("透過機器學習決策樹模型，在數學上印證上述特徵切分與收斂邏輯：")
 try:
     st.image("decision_tree.png", caption="銀行定存轉換率決策樹模型架構圖", use_container_width=True)
@@ -117,7 +117,7 @@ st.markdown("---")
 
 # 4. 營運策略
 st.markdown('<div id="section-strategy"></div>', unsafe_allow_html=True)
-st.header("💡 四、 具體營運策略與落地建議")
+st.header(" 四、 具體營運策略與落地建議")
 st.markdown("""
 1. **建立 VIP 優先外撥名單（VIP Queue）**：
    * 將符合「前次行銷成功」且「無客訴紀錄」之舊客自動歸類，指派資深業務專員優先對接，確保優質體驗。
@@ -128,5 +128,5 @@ st.markdown("""
 """)
 
 st.markdown("---")
-st.markdown("### 🔗 專案原始碼與完整筆記")
+st.markdown("### 🔗 專案程式碼")
 st.markdown("[👉 點此前往 Google Colab 完整分析筆記](https://colab.research.google.com/drive/1CZVOzrgRb-PzNwHQQsQw9RfnB5_xaiKo?usp=sharing)")
