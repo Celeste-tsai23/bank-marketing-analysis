@@ -98,7 +98,7 @@ st.markdown("---")
 st.subheader("4. 行動電話 (cellular) 是最有效的行銷管道")
 st.success("**核心發現**：行動電話樣本數高達 29,285 筆，且轉換率達 **14.9%** 表現最佳。")
 try:
-    st.image("contact method_chart.png", caption="Conversion Rate by Contact Method", use_container_width=True)
+    st.image("contact method_chart.png", caption="Conversion Rate by Contact Method", width=600)
 except:
     st.info("💡 提示：請上傳 `contact_chart.png` 圖檔至 GitHub 即可顯示此圖。")
 
